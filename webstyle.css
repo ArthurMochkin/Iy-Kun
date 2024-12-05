@@ -1,0 +1,213 @@
+header{
+    background: linear-gradient( to left, rgb(250, 199, 77), rgb(169, 134, 222));
+    height: 150px;
+    background-image: url("logo.jpg");
+    background-repeat: no-repeat;
+    background-size: 150px;
+    text-align:end;
+    font-size: 110px;
+    color: white;
+    font-family: "Caveat Brush", cursive;
+    text-shadow: black 2px 5px 5px;
+}
+.iykyn{
+    background: linear-gradient( to left, rgb(250, 199, 77), rgb(169, 134, 222));
+    float: right;
+}
+main{
+    background-color: rgb(255, 255, 255);
+    height: 100%;
+}
+footer{
+    background-color: rgb(255, 255, 255);
+    height: 100%;
+    font-family: "Nunito", sans-serif;
+}
+.nav{
+    position: sticky;
+    top: 0;
+    height: 150%;
+}
+.nav .one{
+    width: 100%;
+}
+.nav .two{
+    width: 100%;
+}
+.nav ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(255, 238, 199);
+    color: rgb(250, 199, 77);
+    width: 100%;
+    overflow: hidden;
+    text-align: center;
+    font-size: 35px;
+    font-family: "Lobster", sans-serif;
+    border: 2px solid rgb(255, 191, 42);
+}
+.nav a{
+    display: block;
+    text-decoration: none;
+    color: rgb(250, 199, 77);
+    padding: 8px 16px;
+    float: left;
+}
+.nav a:hover{
+    background-color: rgb(220, 196, 255);
+    color: rgb(255, 255, 255);
+}
+form{
+    height: 100%;
+    width: 100%;
+    float: right;
+    display: flex;
+}
+input{
+    height: 100%;
+    padding: 10px 20px;
+    border: 1px;
+    font-size: 30px;
+    font-family: "Lobster", sans-serif;
+}
+.search{
+    height: 100%;
+    width: 25%;
+    background-color: rgb(255, 221, 141);
+    color: rgb(179, 154, 98);
+}
+.button{
+    cursor: pointer;
+    background-color: rgb(255, 238, 199);
+    color: rgb(173, 118, 255);
+    font-family: "Lobster", sans-serif;
+    font-size: 30px;
+}
+.button:hover{
+    background-color: rgb(173, 118, 255);
+    color: rgb(255, 255, 255);
+}
+.dobro{
+    text-decoration: none;
+    border: none;
+    border-radius: 35px;
+    box-shadow: 0px 0px 5px black;
+    cursor: pointer;
+    height: 100px;
+    width: 150px;
+    font-size: 30px;
+    background-color: rgb(250, 199, 77);
+    color: rgb(126, 88, 184);
+}
+.dobro:hover{
+    background-color: rgb(176, 123, 255);
+    color: rgb(255, 221, 141);
+}
+.main{
+    height: 100%;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+}
+.shmain{
+    height: 100%;
+    width: 100%;
+    background-color: rgb(91, 194, 134);
+    font-family: "Nunito", sans-serif;
+    font-size: 29.3px;
+}
+.left{
+    float: left;
+    height: 100%;
+    width: 25%;
+    background-color: rgb(255, 255, 255);
+}
+.aleft{
+    float: left;
+    height: 100%;
+    width: 25%;
+    background-color: rgb(255, 255, 255);
+}
+.aleft img{
+    margin: 10%;
+    float: left;
+}
+.shleft{
+    float: left;
+    height: 100%;
+    width: 50%;
+    background-color: rgb(255, 255, 255);
+}
+.srochno{
+    font-family: "Lobster", sans-serif;
+    font-size: 50px;
+}
+.health{
+    font-family: "Caveat Brush", cursive;
+}
+.right{
+    float: right;
+    height: 100%;
+    width: 75%;
+    background-color: rgb(255, 255, 255);
+    font-size: 29.3px;
+    font-family: "Nunito", sans-serif;
+}
+.shright{
+    float: right;
+    height: 1917px;
+    width: 50%;
+    background-color: rgb(255, 255, 255);
+    font-size: 30px;
+    font-family: "Nunito", sans-serif;
+    text-align: justify;
+    margin-left: 0px;
+}
+.hright{
+    float: right;
+    height: 100%;
+    width: 50%;
+    background-color: rgb(255, 255, 255);
+    font-size: 31.15px;
+    font-family: "Nunito", sans-serif;
+}
+.sright{
+    float: right;
+    height: 946px;
+    width: 50%;
+    background-color: rgb(255, 255, 255);
+    font-size: 38.2px;
+    font-family: "Nunito", sans-serif;
+}
+.schoolform{
+    float: middle;
+    background-color: rgb(255, 255, 255);
+}
+.ties{
+    float: right;
+    height: 100%;
+}
+.social{
+    list-style: none; /*убирает маркеры*/
+    display: flex; /*отображает в ряд*/
+    align-items: left; /*выравнивает иконки по центру внутри каждого пункта*/
+    justify-content: left; /*выравнивает все иконки по центру страницы*/
+    margin: 0;
+    padding: 0;
+}
+.social li {
+    padding-left: 10px;
+    padding-top: 20px;
+}
+.caveat-cavfont{
+    font-family: "Caveat", cursive;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+.lobster-regular{
+    font-family: "Lobster", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+  
